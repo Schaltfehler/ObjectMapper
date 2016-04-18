@@ -128,11 +128,9 @@ class BasicTypes: Mappable {
 	var dictEnumIntImplicitlyUnwrapped: [String: EnumInt]!
 
 	init(){
-		
 	}
 	
 	required init?(_ map: Map){
-
 	}
 	
 	func mapping(map: Map) {
